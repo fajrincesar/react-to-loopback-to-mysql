@@ -1,0 +1,30 @@
+{
+  "name": "karyawan2",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "usia": {
+      "type": "number",
+      "required": true
+    },
+    "kota": {
+      "type": "string",
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

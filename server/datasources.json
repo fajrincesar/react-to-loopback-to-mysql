@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql_rin": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:rin121412@localhost/store",
+    "database": "store",
+    "password": "rin121412",
+    "name": "mysql_rin",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
